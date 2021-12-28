@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/w3.css') }}">
+  </head>
+  <body>
+  <div class="w3-container w3-center">
+    <h1>{{ subject }}</h1>
+    <a href="/about">어바웃 페이지 이동</a> <!--# 자기소개 html 또는 시각화결과 html-->
+    <a href="/show1">show1 이동</a> <!-- 좋아하는 사진--> 
+    <a href="/show2">show2 이동</a> <!--# 크리스마스 카드 사진-->
+    <a href="/kma">기상청 날씨1</a> <!--# 전국 중기 예보-->
+    <a href="/kma1">기상청 날씨2</a> <!--# 타시도(택1) 중기 예보-->
+  </div>
+  </body>
+</html>
